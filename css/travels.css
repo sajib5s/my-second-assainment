@@ -1,0 +1,762 @@
+*{
+    font-family: 'Mulish', sans-serif;
+}
+/* ===============menu start================= */
+#main-menu{
+    padding: 20px 150px;
+}
+#main-menu .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#main_menu{
+    height: 80px;
+}
+#main_menu .logo{
+    line-height: 80px;
+    float: left;
+}
+#main_menu .menu{
+     text-align: right;
+     line-height: 80px;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+.menu .home{
+    color: #FF5400;
+}
+.menu a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: var(--Dark-02, #424247);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.menu a:hover{
+    color: #FF5400;
+}
+.logo .air{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.logo .train{
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+/* ===============menu end================= */
+
+/* ==============banner start============== */
+#cover{
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    padding: 88px 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    width: 79%;
+    height: 100%;
+    margin-left: 152px;
+    
+}
+#cover ::before{
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+ }
+ #cover .container .text p span{
+    display: block;
+}
+#cover .btn-2 a{
+    color: #FF5400;
+}
+.text h1{
+    text-align: center;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.text p{
+    text-align: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.item{
+    display: flex;
+    justify-content: center;
+    gap: 17px;
+}
+.item .btn-primary-1{
+    border: none;
+    width: 150px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    margin-left: 0px;
+
+    color: rgba(19, 19, 24, 0.50);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.item .btn-primary-2{
+    border: none;
+    width: 150px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+
+    color: rgba(19, 19, 24, 0.50);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.item .btn-primary-3{
+    border: 1px solid #FFF;
+    width: 150px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+
+    color: rgba(19, 19, 24, 0.50);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.item .btn-primary-4{
+    border: none;
+    width: 150px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background-color: #FF5400;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+/* ==============banner end============== */
+
+/* ==============popular tour start================== */
+#popular .text{
+    width: 700px;
+    margin-top: 40px;
+}
+#popular .text .massa{
+    margin-right: 200px;
+}
+#popular .text h1{
+    color: #FF5400;
+    margin-right: 40px;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+#popular .text p{
+    color: #FF5400;
+}
+#popular .text ul{
+    color: #FF5400;
+}
+#popular .text p span{
+    display: block;
+}
+#popular .text .dolar{
+    margin-left: 140px;
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+#popular .text ul > li{
+    margin-left: 130px;
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+#popular .text .amet{
+    margin-left: 120px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+   
+}
+#popular .container{
+    display: flex;
+
+}
+
+#popular .container .img{
+    margin-top: 40px;
+    margin-left: 100px;
+    height: 550px;
+}
+#popular .text .btn{
+    margin-left: 150px;
+    border: none;
+    border: 1px solid #FF5400 ;
+    padding: 10px 30px;
+    width: 90px;
+    background-color: #FF5400;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 800;
+}
+/* ==============popular tour start end============== */
+
+/* ==============destination start============== */
+#destination{
+    padding: 40px 0;
+}
+#destination h1 , p{
+    text-align: center;
+}
+#destination h1{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+#destination p span{
+    display: block;
+}
+#destination  p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+}
+#destination .container .img .item > h3{
+    color: #FF5400;
+    position: absolute;
+    margin-top: 130px;
+    margin-right: 750px;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+}
+#destination .container .img .item .indonesia{
+    color: #FF5400;
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 1200px;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+    
+}
+#destination .container .img .item .srilanka{
+    position: absolute;
+    margin-top: 450px;
+    margin-right: 960px;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+}
+#destination .container .img .item .north{
+    position: absolute;
+    margin-top: 445px;
+    margin-left: 720px;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+}
+#destination .container .img .item .kashmir{
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 1510px;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+}
+#destination .container .img .item .bd{
+    position: absolute;
+    margin-top: 770px;
+    margin-right: 850px;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+}
+#destination .container .img .item .bandarban{
+    position: absolute;
+    margin-top: 770px;
+    margin-left: 1100px;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+}
+#destination .container .img{
+    margin-top: 30px;
+    margin-left: 140px;
+}
+#destination .container .img > img{
+    padding: 0 15px;
+}
+#destination .container .img-2{
+    margin-top: 29px;
+    margin-left: 140px;
+}
+#destination .container .img-2 img{
+    padding: 0 14px;
+}
+#destination .container .img-3{
+    margin-top: 29px;
+    margin-left: 144px;
+}
+#destination .container .img-3 img{
+    padding: 0 15px;
+}
+/* ==============destination start end============== */
+
+/* ==============chooce us start============== */
+#choose .text h1{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+#choose .text p span{
+    display: block;
+}
+#choose .text p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+#choose .container{
+    display: flex;
+}
+
+#choose .container .items p span{
+    display: block;
+}
+#choose .container .items{
+    margin-left: 180px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 20px 15px;
+    
+}
+#choose .container .items-1 p span{
+    display: block;
+}
+#choose .container .items .icon{
+    font-size: 40px;
+}
+#choose .container .items h1{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+}
+#choose .container .items p{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16p;
+    font-weight: 400;
+    line-height: 26px;
+}
+#choose .container .items-1{
+    margin-left: 150px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 20px 15px;
+}
+#choose .container .items-1 .icon-1{
+    font-size: 50px;
+}
+#choose .container .items-1 h1{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+}
+#choose .container .items-1 p{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+#choose .item-3{
+    width: 573px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    margin-top: 20px;
+    padding: 20px 15px;
+    margin-left: 31.5%;
+}
+#choose .item-3 h1{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+}
+#choose .item-3 p span{
+    display: block;
+}
+#choose .item-3 p{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+}
+/* ==============chooce us end============== */
+
+/* ==============Deals & Discounts start ============== */
+#discount{
+    padding: 40px 0;
+}
+#discount h1{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+#discount p span{
+    display: block;
+}
+#discount p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.container .image{
+    text-align: center;
+}
+.container .image img{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+/* ==============Deals & Discounts  end============== */
+
+/* ==============See All Packages start============== */
+#package .button{
+    margin-left: 660px;
+    background-color: #FF5400;
+    border: none;
+    padding:15px 15px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 7px;
+    cursor: pointer;
+}
+#package .container .texts span{
+    display: block;
+}
+#package .container .texts h1{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 60px;
+    margin-left: 175px;
+}
+#package .container .texts p{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: 180px;
+}
+#package .container .texts ul > li{
+    margin-left: 160px;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+}
+#package .container .texts .btn{
+    margin-left: 145px;
+    margin-top: 20px;
+    background-color: #FF5400;
+    border: none;
+    padding: 10px 20px;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 7px;
+    cursor: pointer;
+}
+#package .container .picture{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+#package .container{
+    display: flex;
+}
+/* ==============See All Packages end============== */
+
+/* ==============Newsletter start============== */
+#newslatter h1{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+    margin-left: 190px;
+    margin-top: 60px;
+}
+#newslatter .hrs{
+    width: 268px;
+    margin-right: 1036px;
+}
+#newslatter p span{
+    display: block;
+}
+#newslatter p .up{
+    margin-right: 267px;
+}
+#newslatter p{
+    margin-right: 780px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+}
+.container .form{
+    margin-left: 195px;
+    padding: 14px 40px;
+    color: rgba(19, 19, 24, 0.30);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+    margin-top: 10px;
+    
+}
+.container .form-1{
+    margin-left: 195px;
+    padding: 14px 40px;
+    color: rgba(19, 19, 24, 0.30);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+    margin-top: 20px;
+    
+}
+.container .Subscribe{
+    margin-left: 195px;
+    margin-top: 40px;
+    padding: 12px 90px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    border: none;
+}
+#newslatter .container{
+    display: flex;
+}
+#newslatter .container .pc{
+    margin-left: 215px;
+}
+.border{
+    text-align: center;
+    border-radius: 16px;
+    background: #FF5400;
+    padding: 10px 50px;
+    width: 300px;
+    height: 120px;
+    flex-shrink: 0;
+    position: absolute;
+    margin-left: 265px;
+    position: absolute;
+    margin-top: 223px;
+    transform: rotate(-19.628deg);
+}
+.border h3{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 400;
+}
+.border h2{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 32px;
+    font-weight: 800;
+}
+/* ==============Newsletter end============== */
+
+/* ==============footer start============== */
+#footer h1{
+    text-align: center;
+    margin-top: 60px;
+}
+#footer .air{
+    color: var(--Dark-01, #131318);
+    font-family: Mulish;
+    font-size: 32px;
+    font-weight: 800;
+}
+#footer .train{
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 32px;
+    font-weight: 800;
+}
+#footer p span{
+    display: block;
+}
+#footer .icons{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+    
+}
+#footer .icons a{
+    margin-left: 20px;
+}
+#footer .icons .hr{
+    width: 1120px;
+}
+#footer .end{
+    text-align: center;
+    color: #131318;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+}
+/* ==============footer end============== */
+
+
+/* ------------responsiv--------------- */
+@media screen and (max-width:576px) {
+    .item{
+        flex-direction: column;
+        margin-left: 80px;
+    }
+    #newslatter .container,
+    #package .container,
+    #choose .container,
+    #destination .container .item,
+    #popular .container,
+    #main-menu .container{
+        flex-direction: column;
+    }
+    .menu ul{
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .menu ul > li{
+        margin-top: 10px;
+    }
+    #destination h1{
+        margin-left: 50px;
+    }
+    #destination p span{
+        margin-left: 90px;
+    }
+    #choose .text h1{
+        margin-left: 90px;
+    }
+    #choose .text p span{
+        margin-left: 90px;
+    }
+    
+
+
+}
+@media screen and (min-width:576px) and (max-width:960px) {
+    #newslatter .container,
+    #package .container,
+    #choose .container,
+    #destination .container .item,
+    #popular .container,
+    #main-menu .container{
+        flex-direction: column;
+    }
+}
+/* -------------responsiv---------- */
